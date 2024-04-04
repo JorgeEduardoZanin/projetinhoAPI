@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto API</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Cadastro</h1>
+        <form action="">
+            <input type="text"class="nome" name="nome" placeholder="Nome">
+            <input type="email" class="email" name="email" placeholder="Email">
+            <input type="password" class="senha" name="senha" placeholder="Senha" pattern="(?=.*\d)(?=.*[A-Z]).{6,}" title="A senha deve conter pelo menos 6 caracteres, incluindo pelo menos um número e uma letra maiúscula">
+            <input type="tel" name="telefone" class="telefone" placeholder="Telefone">
+            <button>Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
